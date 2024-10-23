@@ -1,5 +1,4 @@
 #include <stdio.h>
-#define max 100
 #include <math.h>
 //Function to print digit numbers line by line.
 //Like :- User enter the number : 123
@@ -21,13 +20,20 @@ void sum_digit(int no){
         sum=sum+t;
         no=no/10;
     }
+    printf("Sum of digits is %d\n",sum);
     
 }
 
 //Function to print total of the entered digit.
 // Example :- 123 = 3
 void total_digit(int no){
-    
+    int c;
+    while(no>0)
+    {
+        no=no/10;
+        c++;
+    }
+    printf("Number of digits are: %d\n",c);
 }
 int main()
 {
@@ -40,4 +46,5 @@ int main()
     sum_digit(no);
     
     total_digit(no);
+    return 0;
 }
