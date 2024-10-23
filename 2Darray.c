@@ -5,19 +5,18 @@ display the matrix*/
 int main()
 {
   int a[3][5];
-  int i, j;
   printf("Enter the elements:");
-  for (i = 0; i <= 2; i++)
+  for (int i = 0; i <= 2; i++)
   {
-    for (i = 0; i <= 4; i++)
+    for (int j= 0; j <= 4; j++)
     {
-      scanf("%d", &a[i]);
+      scanf("%d", &a[i][j]);
     }
   }
   printf("Elements are\n");
-  for (i = 0; i <= 2; i++)
+  for (int i = 0; i <= 2; i++)
   {
-    for (j = 0; j <= 4; j++)
+    for (int j = 0; j <= 4; j++)
     {
       printf("%d\t", a[i][j]);
     }
