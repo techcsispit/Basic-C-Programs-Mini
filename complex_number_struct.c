@@ -23,9 +23,9 @@ int main() {
     result = subs(n1, n2);
     result = multi(n1, n2);
 
-    printf("Sum = %.1f + %.1fi\n", result.real, result.imag);
-    printf("subs = %.1f - %.1fi\n", result.real, result.imag);
-    printf("multi = %.1f * %.1fi\n", result.real, result.imag);
+    printf("Sum = %f + %fi\n", result.real, result.imag);
+    printf("subs = %f - %fi\n", result.real, result.imag);
+    printf("multi = %f * %fi\n", result.real, result.imag);
     return 0;
 }
 
