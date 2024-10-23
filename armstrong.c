@@ -24,7 +24,7 @@ int main()
 		num = num / 10;
 	}
 	
-	printf("%d %d\n",sum ,c);
+	// printf("%d %d\n",sum ,c);
 	
 	if (sum == temp1)
 	{
