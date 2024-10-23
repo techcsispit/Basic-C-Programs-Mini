@@ -1,9 +1,9 @@
 #include<stdio.h>
-#include 
+#include <math.h>
 int main()
 {
     int n;
     printf("Enter any number:");
     scanf("%d",&n);
-
+    
 }

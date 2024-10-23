@@ -3,7 +3,7 @@
 int main()
 {
     int rev=0,rmndr,t,n;
-    print("Enter the no :");
+    printf("Enter the no :");
     scanf("%d",&n);
     t = n;
     while (n>0)
@@ -12,13 +12,13 @@ int main()
         rev = rev*10 + rmndr;
         n = n/10;
     }
-    print("the reverse of this no. is %s",rev);
+    printf("the reverse of this no. is %d\n",rev);
     if (t=rev)
     {
-        print("the no. is palindrome %d\n",t);
+        printf("the no. is palindrome %d\n",t);
     }
     else
     {
-        print("the no. is not a palindrome %d\n",t);
+        printf("the no. is not a palindrome %d\n",t);
     }
 }
