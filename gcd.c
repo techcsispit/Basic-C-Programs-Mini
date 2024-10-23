@@ -4,7 +4,15 @@
 #define s scanf(
 void gcd(int a,int b)
 {
-    // complete code
+    int high = a;
+    if(b>a) high = b;
+
+    for (int i = high/2;i>0;i-- ){
+        if(b%i==0 && a%i == 0){
+            p"the gcd is %d\n",i f;
+            break;
+        }
+    }
     
 }
 int main()
