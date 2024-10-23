@@ -1,4 +1,4 @@
-//Palindrome of the number.
+//C program to check a number whether it is palindrome or not.
 #include <stdio.h>
 int main()
 {
@@ -12,8 +12,8 @@ int main()
         rev = rev*10 + rmndr;
         n = n/10;
     }
-    print("the reverse of this no. is %s",rev);
-    if (t=rev)
+    print("the reverse of this no. is %d",rev);
+    if (t==rev)
     {
         print("the no. is palindrome %d\n",t);
     }
@@ -21,4 +21,5 @@ int main()
     {
         print("the no. is not a palindrome %d\n",t);
     }
+    return 0;
 }
