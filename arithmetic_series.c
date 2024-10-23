@@ -1,13 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
-int find_nth_term(int n, int a, int b, int c)
+int find_nth_term(int n, int a, int b)
 {
-    //complete the function
+   int c=b-a;
+   int x=a+(n-1)*c;  //completed function program //
+   return x;
 }
 
 int main()
 {
-    int n, a, b, c;
+    int n, a, b;                         // removed c from main program //
   
     printf("Enter the value of n:");
     scanf("%d",&n);
@@ -18,10 +20,7 @@ int main()
     printf("Enter the value of b:");
     scanf("%d",&b);
     
-    printf("Enter the value of c:");
-    scanf("%d",&c);
-    
-    int ans = find_nth_term(n, a, b, c);
+    int ans = find_nth_term(n, a, b);
  
     printf("the ans is %d\n", ans);
     

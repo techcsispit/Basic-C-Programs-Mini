@@ -8,6 +8,6 @@ int main()
   printf("Enter five numbers:");
   scanf("%f%f%f%f%f", &n1, &n2, &n3, &n4, &n5);
   avg = (n1 + n2 + n3 + n4 + n5) / (5.0);
-  printf("Average of five numbers=%lf", avg);
+  printf("Average of five numbers=%f", avg); //changed lf to f//
   return 0;
 }

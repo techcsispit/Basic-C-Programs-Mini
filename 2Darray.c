@@ -9,9 +9,9 @@ int main()
   printf("Enter the elements:");
   for (i = 0; i <= 2; i++)
   {
-    for (i = 0; i <= 4; i++)
+    for (j = 0; j <= 4; j++) //replaced i with j //
     {
-      scanf("%d", &a[i]);
+      scanf("%d", &a[i][j]); // added [j]//
     }
   }
   printf("Elements are\n");
