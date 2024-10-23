@@ -1,1 +1,8 @@
-/*C program mini game for guessing number between 1 to 100*/
+#include<stdio.h>
+int main()
+{
+    int n;
+    printf("Enter any number:");
+    scanf("%d",&n);
+    
+}
