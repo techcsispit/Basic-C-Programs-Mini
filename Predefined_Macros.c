@@ -1,5 +1,8 @@
 #include <stdio.h>
-
+#define TIME = "18:28:47"
+#define FILE = "Predefined_Macros.c"
+#define DATE = "23/10/24"
+#define LINE = 13
 int main()
 {
     printf("Predefined Macros :\n");
