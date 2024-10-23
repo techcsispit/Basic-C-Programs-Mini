@@ -21,7 +21,7 @@ int sum=0;
     sum += user_arr[j];
   }
   
-int avg = sum/n;
-printf("Average = %d",avg);
+float avg = sum/n;
+printf("Average = %.2f",avg);
 
 }
