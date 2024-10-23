@@ -2,7 +2,7 @@
 #include <math.h>
 int main()
 {
-    int x,r;
+    double x,r;
     int n;
 
     printf("Enter the x number: ");
@@ -13,7 +13,7 @@ int main()
 
     r= pow(n,x);
 
-    printf("%.1lf^%.1d = %.2lf", x, n, r);
+    printf("%.1f^%.1d = %.2lf", x, n, r);
 
     return 0;
 }
