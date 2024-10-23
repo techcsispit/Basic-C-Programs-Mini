@@ -1,13 +1,10 @@
-/* Bitwise operator
-  a&b
-  a|b
-  a^b
-Sample Input 0
-
-5 4
-Sample Output 0
-
-2
-3
-3
-*/
+#include <stdio.h>
+int main()
+{
+  int a,b;
+  printf("Enter two numbers");
+  printf("A AND B is:%d",a&b);
+  printf("A OR B is:%d",a|b);
+  printf("A XOR B is:%d",a^b);
+  return 0;
+}
