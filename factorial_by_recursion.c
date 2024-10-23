@@ -1,6 +1,9 @@
 #include <stdio.h>
 long fact(int n){
-    // complete the function 
+    if(n==0){
+        fact(n)=1;
+    }
+    return n*fact(n-1);
 }
 int main(){
     int n;

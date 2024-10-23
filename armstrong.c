@@ -1,7 +1,8 @@
 #include <stdio.h>
 int main()
 {
-    // complete the code
-
+    int num;
+    printf("Enter number: ");
+    
     return 0;
 }

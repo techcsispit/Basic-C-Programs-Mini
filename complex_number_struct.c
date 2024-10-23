@@ -30,11 +30,17 @@ int main() {
 }
 
 complex add(complex n1, complex n2) {
-    //
+    int r1 = n1.real;
+    int r2 = n2.real;
+    int i1 = n1.imag;
+    int i2 = n2.imag;
 }
 complex subs(complex n1, complex n2) {
-    //
+    int r1 = n1.real;
+    int r2 = n2.real;
+    int i1 = n1.imag;
+    int i2 = n2.imag;
 }
 complex multi(complex n1, complex n2) {
-    //
+    
 }
