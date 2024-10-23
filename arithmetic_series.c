@@ -2,7 +2,17 @@
 #include <stdlib.h>
 int find_nth_term(int n, int a, int b, int c)
 {
+    int n_term;
     //complete the function
+    int d = b-a;
+    if (d == c-b){
+        n_term =a + (n-1)*d ;
+        return n_term;
+
+    }
+    printf("the given numbers are not in arithmetic series\n");
+    return 0;
+
 }
 
 int main()
