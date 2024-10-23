@@ -23,9 +23,6 @@ int main()
     if (t1==sum)
     printf("%d \n",t1);
     }
-    
-    
-    
     return 0;
 }
 
