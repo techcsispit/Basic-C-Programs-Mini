@@ -23,6 +23,6 @@ int main()
     }
     else
     {
-        printf("Given number is prime\n");
+        printf("Given number is prime");
     }
 }
