@@ -1,3 +1,5 @@
+> Note: This Repo is a Part of Source Start: Launch contributions made here will not be counted for our main event 
+
 <img src="https://github.com/abhayanigam/Learning_In_C_Language/blob/main/c.png" align="right" width="200" align="right" />
 
 # Learning In C Language
