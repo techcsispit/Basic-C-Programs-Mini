@@ -1,8 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
+int find_nth_term(int, int , int , int);
 int find_nth_term(int n, int a, int b, int c)
 {
     //complete the function
+    int d1=b-a;
+    int d2=c-b;
+    int tn= a + (n-1)*d1;
+    if(d1!=d2){
+        printf("Such AP doesnt exist");
+
+    }else{
+        return tn;
+    }
 }
 
 int main()
