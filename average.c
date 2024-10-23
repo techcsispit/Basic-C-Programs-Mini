@@ -22,6 +22,6 @@ int sum=0;
   }
   
 int avg = sum/n;
-printf("Average=%d",avg);
+printf("Average = %d",avg);
 
 }
