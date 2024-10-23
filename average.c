@@ -3,11 +3,19 @@
 #include <stdio.h>
 int main()
 {
-  float n1, n2, n3, n4, n5;
-  float avg;
-  printf("Enter five numbers:");
-  scanf("%f%f%f%f%f", &n1, &n2, &n3, &n4, &n5);
-  avg = (n1 + n2 + n3 + n4 + n5) / (5.0);
-  printf("Average of five numbers=%lf", avg);
+  int size;
+  printf("enter the number of elements: ");
+  scanf(" %d",&size);
+  float array[size];
+  for (int i = 0;i<size;i++){
+    scanf("%f",&array[i]);
+  }
+  float sum=0;
+  for(int i = 0; i< size; i++){
+    sum += array[i];
+  }
+  float avg = sum / size;
+
+  printf("Average of %d numbers=%lf", size,avg);
   return 0;
 }
