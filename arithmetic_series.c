@@ -2,28 +2,30 @@
 #include <stdlib.h>
 int find_nth_term(int n, int a, int b, int c)
 {
-    //complete the function
+    int d = b-a;
+    int nth_term = (a + (n-1)*d);
+    return nth_term;
 }
 
 int main()
 {
     int n, a, b, c;
-  
-    printf("Enter the value of n:");
-    scanf("%d",&n);
     
-    printf("Enter the value of a:");
+    printf("First term of sequence:");
     scanf("%d",&a);
     
-    printf("Enter the value of b:");
+    printf("Second term of sequence:");
     scanf("%d",&b);
     
-    printf("Enter the value of c:");
+    printf("Third term of sequence:");
     scanf("%d",&c);
+
+    printf("Enter n:");
+    scanf("%d",&n);
     
     int ans = find_nth_term(n, a, b, c);
  
-    printf("the ans is %d\n", ans);
+    printf("the nth term is %d\n", ans);
     
     return 0;
 }
