@@ -1,8 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
+int find_nth_term(int w,int x, int y, int z);
+
 int find_nth_term(int n, int a, int b, int c)
 {
     //complete the function
+    int ans = a + ((n-1)*(c-b));
+    return ans;
 }
 
 int main()
@@ -27,4 +31,3 @@ int main()
     
     return 0;
 }
-
