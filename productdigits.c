@@ -4,14 +4,14 @@
 int main()
 {
   int n, prod = 1, rem;
-  printf("Enter a number:");
+  printf("Enter a number: ");
   scanf("%d", &n);
 
   while (n != 0)
   {
     rem = n % 10;
-    prod = rem;
+    prod = prod*rem;
     n = n / 10;
   }
-  printf("Product of digits in a number=%d", prod);
+  printf("Product of digits in a number = %d \n", prod);
 }
