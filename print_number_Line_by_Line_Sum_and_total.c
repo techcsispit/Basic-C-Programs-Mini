@@ -7,7 +7,7 @@
 //                  2
 //                  3
 void line_by_line(int no){
-    
+    int c;
 }
 
 //Function to print Sum of the entered digit.
