@@ -1,5 +1,14 @@
 #include <stdio.h>
-long fact(int n){
+long fact(int n)
+{
+    if(n==1 || n==0)
+    {
+        return 1;
+    }
+    else 
+    {
+        return n*fact(n-1);
+    }
     // complete the function 
 }
 int main(){
