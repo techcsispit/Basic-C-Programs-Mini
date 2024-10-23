@@ -1,6 +1,6 @@
 #include <stdio.h>
 int fib(int n){
-    // Complete the function
+    return n-1+fib(n-2);
 }
 int main(){
     int n,i;
