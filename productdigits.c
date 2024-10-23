@@ -10,8 +10,9 @@ int main()
   while (n != 0)
   {
     rem = n % 10;
-    prod = rem;
+    prod = prod*rem;
     n = n / 10;
   }
   printf("Product of digits in a number=%d", prod);
+  return 0;
 }
