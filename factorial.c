@@ -1,24 +1,15 @@
 #include <stdio.h>
 
-int fact(int num);
-int fact(int num)
-{
-    if(num==0 || num==1)
-    {
-        return 1;
-    }
-    else
-    {
-        return fact(num-1)*num;
-    }
-}
 int main()
 {
-    int num;
+    int num, fact=1;
     printf("Enter a number:");
     scanf("%d",&num);
 
-    int factorial = fact(num);
-    printf("Factorial of %d is %d." ,num, factorial);
+    for (int i = 1; i <= num; i++)
+    {
+        fact *= i;
+    }
+    printf("Factorial of %d is %d.",num,fact);
     return 0;
 }
