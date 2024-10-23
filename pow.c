@@ -2,18 +2,18 @@
 #include <math.h>
 int main()
 {
-    int x,r;
-    int n;
+    float x,r;
+    float n;
 
     printf("Enter the x number: ");
-    scanf("%lf", &x);
+    scanf("%f", &x);
 
     printf("Enter the n number: ");
-    scanf("%d",&n);
+    scanf("%f", &n);
 
-    r= pow(n,x);
+    r = pow(x, n);
 
-    printf("%.1lf^%.1d = %.2lf", x, n, r);
+    printf("%.1f ^ %.1f = %.2f", x, n, r);
 
     return 0;
 }
