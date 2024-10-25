@@ -19,7 +19,7 @@ int main()
   {
     for (j = 0; j <= 4; j++)
     {
-      printf("%d\t", a[i][j]);
+      printf("%d ", a[i][j]);
     }
     printf("\n");
   }

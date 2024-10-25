@@ -1,32 +1,52 @@
 #include <stdio.h>
 #include<math.h>
+
+int armstrong(int n);
+int digits(int n);
+
 int main()
 {
-    int ognum, num, n, count, rem, tsum;
-    printf("Enter the number\n");
+    int n;
+    printf("Enter the number :");
     scanf("%d",&n);
-    ognum = n;
-    num = n;
-    count = 0;
+    
+    if (armstrong(n) == 1)
+    {
+        printf("Armstrong Number\n");
+    }
+    else 
+    printf("Not armstrong number\n");
+    return 0;
+}
+
+int digits(int n)
+{
+    int digits = 0;
     while(n>0)
     {
         n = n/10;
-        count++;
+        digits++;
     }
-    tsum = 0;
-    while(num>=0)
+    return digits;
+}
+
+int armstrong(int n)
+{
+    int b = n;
+    int rem;
+    int sum = 0;
+    
+    while(b>0)
     {
-        rem = num%10;
-        tsum = tsum+pow(rem,count);
-        num=num/10;
+        int d = digits(n);
+        rem = b%10;
+        int p = pow(rem,d);
+        sum = sum + p;
+        b = b/10;
     }
-    if(tsum == ognum)
-    {
-        printf("Armstrong");
-    }
+
+    if(sum == n)
+    return 1;
     else
-    {
-        printf("Not armstrong");
-    }
     return 0;
 }
