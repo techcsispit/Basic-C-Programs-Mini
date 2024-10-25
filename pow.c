@@ -6,14 +6,14 @@ int main()
     int n;
 
     printf("Enter the x number: ");
-    scanf("%lf", &x);
+    scanf("%d", &x);
 
     printf("Enter the n number: ");
     scanf("%d",&n);
 
-    r= pow(n,x);
+    r= pow(x,n);
 
-    printf("%.1lf^%.1d = %.2lf", x, n, r);
+    printf("%.1d^%.1d = %.2d", x, n, r);
 
     return 0;
 }
