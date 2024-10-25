@@ -7,7 +7,6 @@ void main(){
     scanf("%d",&n);
     int temp = n;
     int num1 = n;
-
     while (n!=0)
     {
         c+=1;

@@ -2,7 +2,7 @@
 #include <math.h>
 int main()
 {
-    int x,r;
+    double x,r;
     int n;
 
     printf("Enter the x number: ");
@@ -14,6 +14,5 @@ int main()
     r= pow(x,n);
 
     printf("%.1d^%.1d = %.2d", x, n, r);
-
     return 0;
 }
