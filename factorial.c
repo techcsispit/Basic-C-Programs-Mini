@@ -1,6 +1,4 @@
 #include<stdio.h>
-
-
 int main(){
     int n;
     printf("Enter the number :");
@@ -13,5 +11,4 @@ int main(){
 
     printf("factorial is: %d", fact);
     return 0;
-
 }

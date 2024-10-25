@@ -1,18 +1,9 @@
 //C program to print first 50 natural numbers.
 #include<stdio.h>
-
-
-int main()
+void main()
 {
-  int n;
-  printf("Enter a number:");
-  scanf("%d", &n);
-
-  for(int i = 1; i<=n; i++)
-  {
-    printf("%d ", i);
-  }
-  return 0;
+    printf("First 50 numbers are: \n");
+    for(int i=1; i<=50; i++){
+        printf("%d ", i);
+    }
 }
-
-
