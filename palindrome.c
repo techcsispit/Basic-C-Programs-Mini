@@ -1,30 +1,24 @@
 //C program to check a number whether it is palindrome or not.
-#include<stdio.h>
-#include<math.h>
-void main(){
-    int n ,c=-1 , sum=0 ;
-    printf("Enter a number");
+#include <stdio.h>
+int main()
+{
+    int rev=0,rmndr,t,n;
+    printf("Enter the no :");
     scanf("%d",&n);
-    int temp = n;
-    int num1 = n;
-    while (n!=0)
+    t = n;
+    while (n>0)
     {
-        c+=1;
-        n=n/10;
+        rmndr = n%10;
+        rev = rev*10 + rmndr;
+        n = n/10;
     }
-    
-
-    while(num1!=0){
-        int mydigit = num1%10;
-        int power = pow(10,c);
-        sum = sum + mydigit*power;
-        c--;
-        num1=num1/10;
+    printf("the reverse of this no. is %d",rev);
+    if (t=rev)
+    {
+        printf("the no. is palindrome %d\n",t);
     }
-    if ( temp==sum) {
-        printf("Palindrome");
-    }
-    else{
-    printf("Not Palindrome");
+    else
+    {
+        printf("the no. is not a palindrome %d\n",t);
     }
 }

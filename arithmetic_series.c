@@ -2,9 +2,7 @@
 #include <stdlib.h>
 int find_nth_term(int n, int a, int b, int c)
 {
-    int d = b - a;
-    int t = a + (n-1)*d;
-    return t;
+    return a+((n-1)*(c-b));
 }
 
 int main()

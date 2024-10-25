@@ -1,10 +1,10 @@
 /*C program to display armstrong number
 between 1 to 1000*/
+
 #include<stdio.h>
 int armstrong(int n);
 int main()
 {
-
     for(int i = 1; i <= 1000; i ++)
     {
         if(armstrong(i) == 1)
@@ -14,11 +14,6 @@ int main()
     }
     return 0;
 }
-
-
-
-
-
 int armstrong(int n)
 {
     int b = n;

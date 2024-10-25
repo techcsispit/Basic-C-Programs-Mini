@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define pi 3.1415
+const pi=3.1415;
 int main()
 {
     int r = 5;

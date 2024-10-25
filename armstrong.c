@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include<math.h>
+
 int armstrong(int n);
 int digits(int n);
 
@@ -15,8 +16,6 @@ int main()
     }
     else 
     printf("Not armstrong number\n");
-    
-
     return 0;
 }
 

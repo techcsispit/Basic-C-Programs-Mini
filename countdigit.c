@@ -1,18 +1,14 @@
-//C program to count number of digits in a number.
+//C program to count number of digits in a number
 #include<stdio.h>
-
-
-int main()
+void main()
 {
-    int n;
-    printf("enter a number: \n");
+    int n, count=0;
+    printf("Enter the number\n");
     scanf("%d",&n);
-    int digits = 0;
     while(n>0)
     {
         n = n/10;
-        digits++;
+        count++;
     }
-printf("The number of digits are :%d\n", digits);
-return 0;
+    printf("The number of digits are:%d\n", count);
 }

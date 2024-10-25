@@ -3,16 +3,14 @@
 int main()
 {
     double x,r;
-    int n;
-
+    double n;
     printf("Enter the x number: ");
     scanf("%d", &x);
 
     printf("Enter the n number: ");
-    scanf("%d",&n);
+    scanf("%lf",&n);
 
     r= pow(x,n);
-
     printf("%.1d^%.1d = %.2d", x, n, r);
     return 0;
 }
